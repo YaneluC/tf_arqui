@@ -1,4 +1,4 @@
-package pe.edu.upc.aaw.tf_arq_web.dtos;
+ package pe.edu.upc.aaw.tf_arq_web.dtos;
 
 public class UniversidadDTO {
   
