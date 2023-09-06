@@ -8,5 +8,5 @@ public interface IProfesoresService {
     public void insert(Profesores profesores);
     public List<Profesores> list();
     public void delete(int idProfesores);
-    public Profesores listId(int idProfesores);
+ 
 }
