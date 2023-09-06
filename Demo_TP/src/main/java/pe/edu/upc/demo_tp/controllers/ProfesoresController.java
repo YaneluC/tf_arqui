@@ -34,12 +34,7 @@ public class ProfesoresController {
     @DeleteMapping("/{id}")
     public void eliminar(@PathVariable("id")Integer id){pS.delete(id);}
 
-    @DeleteMapping("/{id}")
-    public ProfesoresDTO listarId(@PathVariable("id")Integer id){
-        ModelMapper m = new ModelMapper();
-        ProfesoresDTO dto = m.map(pS.listId(id),ProfesoresDTO.class);
-        return dto;
-    }
+   
     @PutMapping
     public void modificar(@RequestBody ProfesoresDTO dto){
         ModelMapper m = new ModelMapper();
