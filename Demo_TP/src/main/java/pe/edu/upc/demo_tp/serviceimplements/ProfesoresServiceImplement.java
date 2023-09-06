@@ -22,10 +22,7 @@ public class ProfesoresServiceImplement implements IProfesoresService {
     @Override
     public void delete(int idProfesores) {pR.deleteById(idProfesores);}
 
-    @Override
-    public Profesores listId(int idProfesores) {
-        return pR.findById(idProfesores).orElse(new Profesores());
-    }
+    
 
 
 }
