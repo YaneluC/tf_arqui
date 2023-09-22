@@ -9,5 +9,5 @@ public interface IProfesoresService {
     public List<Profesores> list();
     public void delete(int idProfesores);
     public Profesores listId(int idProfesores);
- 
+    public List<String[]> cantidadDeProfesoresPorUniversidad();
 }
